@@ -6,7 +6,7 @@ Steps to generate Private MC samples
 
 You can download fragment examples from https://cms-pdmv.cern.ch/mcm
 
-In this tutorial we are using [BuJpsik](BuJpsik_Pythia8_8p16TeV_TuneCUETP8M1_GEN_cfi.py) as fragment.
+In this tutorial we are using [BuJpsik](BuJpsik_Pythia8_8p16TeV_TuneCUETP8M1_cfi.py) as fragment.
 
 * Edit and run the [prepare script](prepare-BuJpsiK_MCHIN_2016.sh). (Remember signing in to the GRID in order to find the pileup files in DAS (if necessary))
 
