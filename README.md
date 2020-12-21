@@ -12,9 +12,9 @@ In this tutorial we are using [BuJpsik](BuJpsik_Pythia8_8p16TeV_TuneCUETP8M1_cfi
 
 * You should have produced several python config files for all the steps
 
-* Test locally using 
+* Test locally using [the script](MCcrabJobScript.sh)
 
-* Finally send the job using 
+* Finally send the job using [crab config file](crab-MC-HIAOD_cfg.py)
 
 
 Usefull references
@@ -22,6 +22,8 @@ Usefull references
 https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookGeneration
 
 https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookGenIntro
+
+https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3ConfigurationFile
 
 https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3AdvancedTutorial
 
