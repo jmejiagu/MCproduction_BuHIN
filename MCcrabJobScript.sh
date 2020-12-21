@@ -47,7 +47,8 @@ cmsRun -e -j ${CHANNEL_DECAY}_step1.log step1-DR_BuJpsiK_Pythia8_8p16TeV_TuneCUE
 #rm -rfv step0-GS_BuJpsiK_Pythia8_8p16TeV_TuneCUETP8M1_GEN.root
 
 echo "================= PB: CMSRUN starting Reco step 2 ===================="
-cmsRun -e -j ${CHANNEL_DECAY}_step2.log  step2-DR_BuJpsiK_Pythia8_8p16TeV_TuneCUETP8M1_RECO.py
+#cmsRun -e -j ${CHANNEL_DECAY}_step2.log  step2-DR_BuJpsiK_Pythia8_8p16TeV_TuneCUETP8M1_RECO.py
+cmsRun -e -j FrameworkJobReport.xml  step2-DR_BuJpsiK_Pythia8_8p16TeV_TuneCUETP8M1_RECO.py
 #cleaning
 #rm -rfv step1-DR_BuJpsiK_Pythia8_8p16TeV_TuneCUETP8M1_DIGI.root
 
