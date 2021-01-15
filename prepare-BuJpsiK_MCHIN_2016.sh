@@ -18,7 +18,7 @@ curl -s --insecure https://raw.githubusercontent.com/jmejiagu/MCproduction_BuHIN
 scram b
 cd ../../
 
-cmsDriver.py Configuration/GenProduction/python/$pyfile --python_filename step0-GS_BuJpsiK_Pythia8_8p16TeV_TuneCUETP8M1_GEN.py --eventcontent RAWSIM --customise Configuration/StandardSequences/SimWithCastor_cff.py,Configuration/DataProcessing/Utils.addMonitoring --datatier GEN-SIM --fileout=step0-GS_BuJpsiK_Pythia8_8p16TeV_TuneCUETP8M1_GEN.root --conditions 80X_mcRun2_pA_v4 --beamspot RealisticPbPBoost8TeV2016Collision --step GEN,SIM --era Run2_2016_pA --no_exec  --mc -n 1000;
+cmsDriver.py Configuration/GenProduction/python/$pyfile --python_filename step0-GS_BuJpsiK_Pythia8_8p16TeV_TuneCUETP8M1_GEN.py --eventcontent RAWSIM --customise Configuration/StandardSequences/SimWithCastor_cff.py,Configuration/DataProcessing/Utils.addMonitoring --datatier GEN-SIM --fileout=step0-GS_BuJpsiK_Pythia8_8p16TeV_TuneCUETP8M1_GEN.root --conditions 80X_mcRun2_pA_v4 --beamspot RealisticPbPBoost8TeV2016Collision --step GEN,SIM --era Run2_2016_pA --no_exec  --mc -n 100000;
 sed -i "20 a from IOMC.RandomEngine.RandomServiceHelper import RandomNumberServiceHelper \nrandSvc = RandomNumberServiceHelper(process.RandomNumberGeneratorService)\nrandSvc.populate()" step0-GS_BuJpsiK_Pythia8_8p16TeV_TuneCUETP8M1_GEN.py
 
 
