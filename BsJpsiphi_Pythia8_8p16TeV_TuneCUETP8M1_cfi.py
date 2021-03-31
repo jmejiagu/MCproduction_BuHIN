@@ -70,4 +70,4 @@ phifilter = cms.EDFilter(
     verbose = cms.untracked.int32(1)
 )
 
-ProductionFilterSequence = cms.Sequence(generator+bfilter+mumugenfilter*phifilter)
+ProductionFilterSequence = cms.Sequence(generator+bfilter+mumugenfilter+phifilter)
